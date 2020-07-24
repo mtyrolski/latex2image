@@ -1,7 +1,9 @@
 # latex2image
-Simple but powerful multi-thread latex to image converter.
-
+Simple but powerful multi-thread latex to image converter. <br>
+This readme is related to last stable release v0.1.0: https://github.com/mvxxx/latex2image/releases/tag/v0.1.0
 ## Usage
+
+### Input
 This command will create `n` parallel tasks
 ```bash
 bash set.sh inputfile_1 inputfile_2 ... inputfile_n
@@ -29,3 +31,5 @@ e.g.
 79 - \frac{71 \cdot 95}{91 - 19}
 \frac{10 - 4}{56}
 ```
+### Output
+`labels.txt` in which j'th line represents `output/eqj.png`.
