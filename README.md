@@ -1,7 +1,23 @@
 # latex2image
 Simple but powerful multi-thread latex to image converter. <br>
-This readme is related to last stable release v0.1.0: https://github.com/mvxxx/latex2image/releases/tag/v0.1.0
+This readme is related to last stable release v0.1.0: https://github.com/mvxxx/latex2image/releases/tag/v0.2.0
 ## Usage
+
+### Additional packages
+If you want to use additional packages, modify `python_exec.sh` script. Usage of `generator.py`:
+
+```
+usage: generate_latex.py [-h] [-p PACKAGES [PACKAGES ...]]
+                         [-e EXTRA [EXTRA ...]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PACKAGES [PACKAGES ...], --packages PACKAGES [PACKAGES ...]
+                        Add packages.
+  -e EXTRA [EXTRA ...], --extra EXTRA [EXTRA ...]
+                        Add extra latex line.
+
+```
 
 ### Input
 This command will create `n` parallel tasks
@@ -32,4 +48,15 @@ e.g.
 \frac{10 - 4}{56}
 ```
 ### Output
+#### Labels
 `labels.txt` in which j'th line represents `output/eqj.png`.
+#### Example images
+
+<p align="center">
+  <img src="https://github.com/mvxxx/latex2image/blob/master/example/1.png?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/mvxxx/latex2image/blob/master/example/2.png?raw=true">
+</p>
+
