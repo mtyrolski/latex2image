@@ -7,7 +7,7 @@ do
     cp $var "${var}_aux/"
     cd "${var}_aux"
     mv $var "raw_tex.in"
-    python3 generate_latex.py -i raw_tex.in &
+    bash ../python_exec.sh &
     cat raw_tex.in >> ../labels.txt
     cd ..
     ((++idx))
