@@ -39,11 +39,9 @@ e.g.
 ```
 \frac{52 + 92}{74}
 32
-\color{ red }{ 1-\left(5\right) }+\color{ blue }{ F\left(F\left(cx\right)\right) }
-\color{ red }{ \left(F\left(6c\right)\right) }-\color{ blue }{ F\left(2y\right) }
-\color{ red }{ c }-\color{ blue }{ f\left(\left(ax\right)\right) }
-\color{ red }{ \sqrt{ 9 } }-\color{ blue }{ 7a }
-\color{ red }{ \left(aa-8\right) } \cdot \color{ blue }{ F\left(\int 6y \right) }
+{\color[rgb]{ 1,0,0 } 3c }-{\color[rgb]{ 0,0,1 } \sqrt{ f\left(0\right)-7+yb \cdot 5y \cdot 2d+yx \cdot 6y } }
+{\color[rgb]{ 1,0,0 } f\left(F\left(G\left(\frac{ c }{ 1d }\right)\right)\right) }+{\color[rgb]{ 0,0,1 } \left(4b\right) }
+{\color[rgb]{ 1,0,0 } \frac{ \left(G\left(3-9\right)\right) }{ bb } }+{\color[rgb]{ 0,0,1 } f\left(yd \cdot 9d+db-6y+f\left(7\right)\right) }
 79 - \frac{71 \cdot 95}{91 - 19}
 \frac{10 - 4}{56}
 ```
