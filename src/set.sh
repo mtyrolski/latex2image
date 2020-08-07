@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 idx=0
 rm -f labels.txt
 for var in "$@"
@@ -16,7 +18,8 @@ done
 mkdir -p output
 wait
 idx=0
-for var in "$@"
+SORTED=$(printf '%s\n' "$@"|sort)
+for var in ${SORTED}
 do
     cd "${var}_aux"
     wait
