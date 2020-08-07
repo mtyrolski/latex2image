@@ -1,6 +1,6 @@
 # latex2image
 Simple but powerful multi-thread latex to image converter. <br>
-This readme is related to last stable release v0.2.0: https://github.com/mvxxx/latex2image/releases/tag/v0.2.0
+This readme is related to last stable release v0.2.1: https://github.com/mvxxx/latex2image/releases/tag/v0.2.1
 ## Usage
 
 ### Additional packages
