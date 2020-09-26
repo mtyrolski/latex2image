@@ -18,8 +18,7 @@ done
 mkdir -p output
 wait
 idx=0
-SORTED=$(printf '%s\n' "$@"|sort)
-for var in ${SORTED}
+for var in "$@"
 do
     cd "${var}_aux"
     wait
